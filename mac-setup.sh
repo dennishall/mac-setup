@@ -36,3 +36,5 @@ ulimit -n 2560
 # install brackets
 # install Charles proxy
 # install virtualbox or vmware
+
+# set mac keyboard repeat speed & repeat delay
