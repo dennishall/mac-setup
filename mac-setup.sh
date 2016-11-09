@@ -21,8 +21,11 @@ if [ ! -a ~/.inputrc ]; then echo '$include /etc/inputrc' > ~/.inputrc; fi
 # Add option to ~/.inputrc to enable case-insensitive tab completion
 echo 'set completion-ignore-case On' >> ~/.inputrc
 
+# Work around bug in browserify / too many files open / gulp watch tasks...
+ulimit -n 2560
 
-# install slack, whatsapp, viber
+
+# install slack, skype, whatsapp, viber
 
 # OPTIONAL
 # install chrome
