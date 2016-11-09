@@ -2,6 +2,7 @@
 touch ~/.bash_profile
 
 # install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
